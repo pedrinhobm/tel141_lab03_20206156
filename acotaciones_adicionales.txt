@@ -1,0 +1,9 @@
+Para el script de init_ofs se puso en un inicio la interfaz ens4 ens5 ens6. 
+No obstante no podia establecer conexion ni en la actividad de capa 2 ni mucho menos hacer ping en capa 3
+Es por ello que lo cambie a las interfaces ens6 ens7 y ens8, y tuve que rehacerlo
+todo de nuevo, lo cual si funcionó. Las evidencias también están en mi Reporte Final
+
+Recordar que en el script de vm_create , las MAC tienen las credenciales de mi codigo pucp 20:20:61:56:aa:bb
+Como tambien estaba establecido en el laboratorio anterior
+Lamento indicarlo hoy sabado 27 de septiembre alas 1.30 pm, pero es para agregar que podrian cambiar las interfaces
+ens 4 ens5 y ens6 por ens6 ens7 ens8 del ofs para que logre la conexión
