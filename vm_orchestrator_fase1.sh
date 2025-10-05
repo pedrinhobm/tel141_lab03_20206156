@@ -4,7 +4,8 @@ echo "Iniciamos la fase 1 del orquestador"
 
 # Ejecución del OFS
 echo "Procesando el OFS"
-ssh ubuntu@10.0.10.5 'sudo bash -s' < init_ofs.sh br-data ens4 ens5 ens6
+ssh ubuntu@10.0.10.5 'sudo bash -s' < init_ofs.sh br-data ens6 ens7 ens8 
+# para mi VNRT, indicado tambien en acotaciones adicionales.txt
 
 # Ejecución del worker 1 (server2)
 echo "Procesando el primer worker"
